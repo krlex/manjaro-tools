@@ -7,3 +7,5 @@ sudo systemctl --user start pulseaudio
 
 bash <(curl -sL https://raw.githubusercontent.com/krlex/nodejs-installation/main/script.sh) tls 
 
+sudo pamac build viber
+sudo pamac build protonvpn
