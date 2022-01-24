@@ -1,7 +1,8 @@
 #!/bin/bash
 
 sudo pacman -Syu
-sudo pacman -Sy neovim python3-pip keepassxc vagrant docker curl wget unp unzip unrar firefox dino geeqie fish mpv audacious bpytop pulseaudio protonvpn
+sudo pacman -Sy neovim python3-pip keepassxc vagrant docker curl wget unp unzip unrar firefox dino geeqie fish mpv audacious bpytop pulseaudio protonvpn virtualbox linux510-virtualbox-host-modules linux515-virtualbox-host-modules
+sudo vboxreload
 sudo install_pulse
 sudo systemctl --user start pulseaudio 
 
