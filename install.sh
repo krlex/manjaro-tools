@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -Syu
-sudo pacman -S npm yarn rust net-tools neovim python-pip keepassxc vagrant docker curl wget unp unzip unrar firefox dino geeqie fish mpv audacious bpytop pulseaudio linux510-virtualbox-host-modules linux515-virtualbox-host-modules
+sudo pacman -S npm yarn rust net-tools neovim python-pip keepassxc vagrant docker curl wget unp unzip unrar firefox dino geeqie fish mpv audacious bpytop pulseaudio linux510-virtualbox-host-modules linux515-virtualbox-host-modules tmux python-virtualenv
 
 sudo vboxreload
 sudo install_pulse
