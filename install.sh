@@ -12,5 +12,6 @@ sudo chsh -s /bin/fish
 sudo pamac build viber
 sudo pamac build protonvpn
 sudo pamac build discord
+sudo pacman -R palemoon-bin
 
 # bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
